@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+.header {
+    padding: 2% 0% 0% 10%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-size: 25px;
+    color: #a44a3f;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+}
+
+.header__menu__link:hover {
+    color: #52489c;
+}
+
+body{
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #e2dad8;
+}
+
+.titulo-destaque {
+    color: #92374d;
+}
+
+.parrafo-destaque {
+    color: #92374d;
+}
+
+.presentacion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 7% 10%;
+}
+
+.presentacion__contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.presentacion__contenido__titulo{
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.presentacion__contenido__texto{
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    text-align: justify;
+}
+
+.presentacion__enlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentacion__enlaces__subtitulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+.presentacion__enlaces__link {
+    width: 378;
+    text-align: center;
+    padding: 15px 90px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #A1869E;
+    border: 5px solid #4A4A4A;
+    border-radius: 8px;
+}
+
+.presentacion__enlaces__link:hover {
+    background-color: #272727;
+    border: 10px solid #4A4A4A;
+}
+
+img {
+    border: 5px solid #4A4A4A;
+    border-radius: 8px;
+}
+
+.lista {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    color: #000000;
+    background-color: #E5877A;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
